@@ -3,13 +3,14 @@ lst = []
 subs = set()
 while True:
     print("Welcome to the Student Data Organizer!")
-    print("Select an option:")
-    print("1. Add Student")
-    print("2. Display All Students")
-    print("3. Update Student Information")
-    print("4. Delete Student")
-    print("5. Display Subjects Offered")
-    print("6. Exit")
+    print("""Select an option:
+    1. Add Student
+    2. Display All Students
+    3. Update Student Information
+    4. Delete Student
+    5. Display Subjects Offered
+    6. Exit""")
+    
 
     c = int(input("Enter your choice: "))
     if c == 1:
