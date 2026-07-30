@@ -54,14 +54,12 @@ while True:
             if u == 1:
                 na = int(input("New Age: "))
                 data[id]["age"] = na
-                n = data[id]["name"]
-                print("Age for {} updated!".format(n))
+                print("Age updated!")
                 
             elif u == 2:
                 ng = input("New Grade: ")
                 data[id]["grade"] = ng
-                n = data[id]["name"]
-                print("Grade for {} updated!".format(n))
+                print("Grade updated!")
                 
             elif u == 3:
                 print("1. Add Subject")
