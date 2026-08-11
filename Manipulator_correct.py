@@ -7,7 +7,7 @@ while True:
     1. Add Student
     2. Display All Students
     3. Update Student Information
-    4. Delete Student
+    4. Delete Students
     5. Display Subjects Offered
     6. Exit""")
     
@@ -33,6 +33,7 @@ while True:
         data[id]=d
         lst.append(d)
         print("Student  added successfully!")
+        print(lst)
         
     elif c == 2:
         print("--- Display All Students ---")
