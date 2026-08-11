@@ -161,7 +161,14 @@ while True:
 
     elif userinp == "7":
         print("thank you! goodbye!")
+        print("UDF 1: ", creationofarr.__doc__)
+        print("UDF 2: ", disdata.__doc__)
+        print("UDF 3: ", calcfact.__doc__)
+        print("UDF 4: ", filterthresh.__doc__)
+        print("UDF 5: ", sortmydata.__doc__)
+        print("UDF 6: ", getstats.__doc__)
         break
-
+        
     else:
         print("invalid choice")
+
