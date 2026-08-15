@@ -157,7 +157,7 @@ while True:
                 - min: {mn}
                 - max: {mx}
                 - total: {tot}
-                - average: {av:.2f}""")
+                - average: {av}""")
 
     elif userinp == "7":
         print("thank you! goodbye!")
